@@ -9,6 +9,7 @@
 
 ```bash
 python file_manipulator.py <command> <arguments...>
+```
 
 ## サポートしているコマンド
 1. reverse
@@ -17,6 +18,7 @@ python file_manipulator.py <command> <arguments...>
 
 ```bash
 python file_manipulator.py reverse input.txt output.txt
+```
 
 2. copy
 
@@ -24,6 +26,7 @@ python file_manipulator.py reverse input.txt output.txt
 
 ```bash
 python file_manipulator.py copy input.txt output.txt
+```
 
 3. duplicate-contents
 
@@ -31,7 +34,7 @@ python file_manipulator.py copy input.txt output.txt
 
 ```bash
 python file_manipulator.py duplicate-contents input.txt 3
-
+```
 上の例では、input.txt の内容が3回繰り返されます。
 
 4. replace-string
@@ -40,8 +43,8 @@ python file_manipulator.py duplicate-contents input.txt 3
 
 ```bash
 python file_manipulator.py replace-string input.txt "置換前" "置換後"
-
-上の例では、input.txt 内の "置換前" がすべて "置換後" に置き換わります。
+```
+上の例では、`input.txt` 内の "置換前" がすべて "置換後" に置き換わります。
 
 ---
 
@@ -51,3 +54,4 @@ python file_manipulator.py replace-string input.txt "置換前" "置換後"
 
 ```bash
 not a valid command
+```
